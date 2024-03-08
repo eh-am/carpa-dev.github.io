@@ -1,0 +1,19 @@
+.hero-body .columns {
+    text-align: center;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.landing-illustration {
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (max-width: 600px){
+    .hero-body {
+        padding: 1rem 0;
+    }
+}
